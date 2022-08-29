@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=RocknRoll+One&display=swap');
+
+:root {
+	--yellow: #feca1b;
+	--blue: #3761a8;
+	--danger: #dc3545;
+	--font: 'Quicksand', sans-serif;
+}
+
+body {
+	background-color: var(--blue);
+	color: var(--h1color);
+	font-family: var(--font);
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.6;
+	text-align: center;
+	margin: 20px;
+}
+
+.pokeball {
+width: 28px;
+height: 28px;
+}
+.list-group-item-action:focus, .list-group-item-action:hover{
+	background-color: #f86d7b;
+}
+
+ul {
+	list-style: none;
+	columns: 2;
+}
+
+.modal-title {
+	color:black;
+}
+
+.modal-body {
+	background-color: var(--yellow);
+	border: 30px solid var(--danger);
+}
+
+.modal-header {
+	border: 2px solid var(--yellow);
+	background-color:var(--danger);
+}
+
+.close_icon {
+	width: 50px;
+  height: 50px;
+}
+
+.modal-header .close {
+	padding: 0 0;
+	margin: 0;
+}
+
+.list-group {
+	margin: 10px;
+	margin-top: 10px;
+	display:block;
+}
+
+.list-group-item {
+	border: none;
+	width: 100%;
+	padding: 12px 28px;
+	font-family: inherit;
+	color: var(--danger);
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 4px 2px;
+	-webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration: 0.4s;
+	cursor: pointer;
+	background-color: var(--danger);
+	border: 2px solid var(--yellow);
+	border-color: var(--yellow);
+	border-radius: 5px;
+}
+
+button.btn.btn-block {
+	font-size: 18px;
+	font-weight: bold;
+	padding: 2px 4px;
+	background-color: var(--yellow);
+}
+
+#pokemonModal {
+	color: var(--danger);
+}
